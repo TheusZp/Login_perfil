@@ -1,0 +1,46 @@
+
+header{
+    text-align: right;  
+    padding: 4rem 9rem;  
+    
+}
+
+
+
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+form input{
+    height: 1rem;
+    width: 30rem;
+    border: none;
+    border-bottom: 1px #c1c1c1 solid;
+    padding: 3rem  0 2rem 0 ;
+    outline: none;
+    
+}
+form a{
+    padding: .5rem 0 2rem 0;
+    color: #28a1c5;
+}
+form button{
+    font-weight: 700;
+    font-size: 1.6rem;
+    height: 4rem;
+    background-color: #ffffff;
+    border: 2px #28a1c5 solid;
+    border-radius: 5px;
+    
+    cursor: pointer;
+}
+form button:hover{
+background-color: #28a1c5;
+color: #fff;
+}
+

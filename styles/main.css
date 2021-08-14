@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html {
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+.sr-only{
+    opacity: 0;
+}
+
+body{
+    background-color: #41B1D4;
+   
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    text-align: right;  
+    padding: 4rem 9rem;  
+    
+}
+.top span,
+.top a{
+    color: #ffffff;
+    font-size: 1.8rem;
+    padding-right: 2rem;
+    text-decoration: none;
+}
+
+
+.top button{
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 1.8rem;
+    cursor: pointer;
+
+    
+
+
+}
+.top button+button{
+    padding-left: 2rem;
+}
+main{
+    width: 100vw;
+    height: 100vh;      
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    margin-top: -10rem;  
+    padding: 5rem 0;
+    
+}
+
+section{
+
+    max-width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: #ffffff;
+    padding: 5rem;
+    border-radius: 5px;
+    box-shadow: 2px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.349);
+
+    
+}
+
+section h2{    
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+
+/* .cadastro{
+    
+    display: none;
+} */

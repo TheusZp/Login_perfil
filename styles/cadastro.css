@@ -1,0 +1,86 @@
+.cadastro h2{    
+    margin-bottom: 2rem;
+    
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "info1 info2"
+    "info3 info4";
+    gap: 2rem;
+    column-gap: 5rem;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+
+}
+
+.info1,
+.info2,
+.info3,
+.info4{
+
+    
+    border-left: 1px #c1c1c1 solid;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .5rem 0 .5rem 1rem;
+
+    font-size: 1.2rem;
+    word-break: break-word;
+}
+
+
+
+.cadastro form{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.cadastro form input{
+    
+    width: 20rem;
+    border: none;
+    border-bottom: 1px #c1c1c1 solid;
+    /* padding: 1rem  0 1rem 0 ; */
+    margin-bottom: 2rem;
+    outline: none;
+    
+}
+.cadastro form input:last-child{
+    margin-bottom: 1rem;
+}
+.cadastro form .pass {
+    width: 30rem;
+    border-left: 1px #c1c1c1 solid;
+    padding: .5rem 0 .5rem 1rem;
+}
+
+.cadastro form hr{
+    margin: 1rem 0 2rem 0;
+    height: 1px;
+    /* size: .3px; */
+    
+}
+
+.cadastro form button{
+    font-weight: 700;
+    font-size: 1.6rem;
+    height: 4rem;
+    background-color: #ffffff;
+    border: 2px #28a1c5 solid;
+    border-radius: 5px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    
+    cursor: pointer;
+}
+.cadastro form button:hover{
+background-color: #28a1c5;
+color: #fff;
+}
