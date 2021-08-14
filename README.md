@@ -29,7 +29,7 @@ Antes de iniciar, será necessário a instalação da plataforma de desenvolvime
 
 - A tela inicial do site é uma tela de login, nela é solicitado ao usuário(email)  e a senha. Também e possível realizar um cadastro, apresentado em um botão no lodo superior direito.
 
-  ![image-20210813221425748](C:\Users\mathe\AppData\Roaming\Typora\typora-user-images\image-20210813221425748.png)
+  <img src="./img/index.PNG" alt="Tela login">
 
   - O banco de dados já vem com um usuário cadastrado para o teste se preferir:
 
@@ -41,13 +41,13 @@ Antes de iniciar, será necessário a instalação da plataforma de desenvolvime
 
 - Ao efetuar o login o usuário é direcionado para a pagina de perfil, onde no centro e possível ver suas informações salvas no cadastro e no canto superior esquerdo é apresentada uma saudação com o nome do usuário e o botão para sair.
 
-  ![image-20210813221556538](C:\Users\mathe\AppData\Roaming\Typora\typora-user-images\image-20210813221556538.png)
+  <img src="./img/perfil.PNG" alt="Tela perfil">
 
   
 
 - Se optar por realizar um cadastro, o usuário é direcionado para a pagina de cadastro, onde é apresentado um formulário para cadastro, e que depois de preenchido e confirmado, se todos os campos preenchidos corretamente, será direcionado novamente para o inicio para que seja feito o login.
 
-  ![image-20210813221518928](C:\Users\mathe\AppData\Roaming\Typora\typora-user-images\image-20210813221518928.png)
+  <img src="./img/index.PNG" alt="Tela cadastro">
 
 
 
